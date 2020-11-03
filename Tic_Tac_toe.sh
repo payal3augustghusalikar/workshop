@@ -46,7 +46,6 @@ function userinput()
                 echo "enter another case"
                 userinput
         fi
-displayBoard
 
 }
 
