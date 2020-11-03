@@ -31,6 +31,10 @@ function Autosymbol()
                 echo "Player symobol : O | Computer symbol : X"
                 echo "Computer Plays First"
         fi
+echo "Valid cell for user input is as below"
+ 
+
+
 }
 
 function userinput()
@@ -46,6 +50,7 @@ function userinput()
                 echo "enter another case"
                 userinput
         fi
+displayBoard
 
 }
 
