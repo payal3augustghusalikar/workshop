@@ -52,9 +52,6 @@ function userinput()
                 userinput
         fi
 		displayBoard
-echo "do you want to move your symbol location"
-echo "Enter 1 if yes otherwise enter 0"
-
 
 }
 
