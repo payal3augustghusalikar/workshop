@@ -1,4 +1,5 @@
 #! /bin/bash -x
+
 echo "welcome to tic tac toe game"
 
 function resetTheBoard()
@@ -31,8 +32,8 @@ function Autosymbol()
                 echo "Player symobol : O | Computer symbol : X"
                 echo "Computer Plays First"
         fi
-echo "Valid cell for user input is as below"
- 
+		echo "Valid cell for user input is as below"
+
 
 
 }
@@ -45,12 +46,15 @@ function userinput()
         if [ ${boardOfTicTacToe[$playerPosition]} == '-' ]
         then
                 boardOfTicTacToe[$playerPosition]=$player
-        else
-                echo "not possible"
-                echo "enter another case"
+			else
+                echo "this position is already occupied"
+                echo "enter another position"
                 userinput
         fi
-displayBoard
+		displayBoard
+echo "do you want to move your symbol location"
+echo "Enter 1 if yes otherwise enter 0"
+
 
 }
 
